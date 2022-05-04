@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0px;
+	margin:0px;
+	font-family:"微软雅黑";
+}
+#tail{
+	width:100%;
+	height:200px;
+	overflow:hidden;
+	margin-top:20px;
+	background:rgba(33,32,32,0.9);
+	position:relative;
+}
+.contain{
+	width:1200px;
+	margin:0px auto;
+	overflow:hidden;
+}
+.contain .contain2{
+	height:100%;
+	line-height: 50px;
+	margin:14px auto;
+	width:640px;
+	overflow:hidden;
+	margin-top:50px;
+}
+.contain .contain2 li{
+	float:left;
+	list-style:none;
+	text-align: center;
+	width:80px;
+	color:white;
+}
+.contain .contain2 li a{
+	color:white;
+	text-decoration:none;
+}
+.contain .contain2 li a:hover{
+	background:white;
+	color:black;
+} 
+#tail dl{
+	width:120px;
+	height:180px;
+	float:left;
+	color:#B6AEAE;
+	text-align: center;
+	font-size:12px;
+}
+#tail dl img{
+	width:70px;
+	height:70px;
+	margin-top:30px;
+}
+.contain3{
+	position: absolute;
+	top:0px;
+	left:1200px;
+}
+

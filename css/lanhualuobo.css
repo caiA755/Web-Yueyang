@@ -1,0 +1,267 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0px ;
+	margin:0px;
+	font-family: "微软雅黑";
+}
+.nav{
+	overflow:hidden;
+	background:rgba(33,32,32,0.9);
+	height:75px;
+	width:100%;
+	margin-top:10px;
+
+}
+.navM{
+	margin:10px auto;
+	width:1200px;
+	font-size:18px;
+	position: relative;
+}
+/*左侧导航*/
+.left{
+	margin-left:50px;
+	float:left;
+	width:400px;
+	height:100%;
+	font-size:30px;
+	height-line:60px;
+	position:absolute;
+	color:white;
+}
+.left a{
+/*	color:#1CDE54;*/
+	color:white;
+	font-weight:bolder;
+	font-size:50px;
+	letter-spacing: 10px;;
+	text-decoration:none;
+	display:block;
+	position:absolute;
+	left:210px;
+	top:-4px;
+	font-family: "YouYuan";
+}
+.left a:hover{
+	color:#57FFF8;
+}
+/*右侧导航*/
+ .navM .right{
+	float:left;
+	height:100%;
+   margin-left:450px;
+	width:700px;
+	overflow:hidden;
+	
+}
+.right .chinese ul{
+	width:700px;
+	height:30px;
+	font-size:18px;
+}
+.right .english ul{
+	width:700px;
+	height:20px;
+	font-size:18px;
+}
+.right .english ul li{
+	margin-right:70px;
+	float:left;
+	list-style: none;
+	text-align:center;
+}
+.right .chinese ul li{
+	margin-right:70px;
+	float:left;
+	list-style: none;
+	text-align:center;
+}
+.right .chinese ul li a{
+	text-decoration: none;
+	color:white;
+	list-style:none;
+	display:block;
+}
+.right .english ul li a{
+	text-decoration: none;
+	color:white;
+	list-style:none;
+	display:block;
+}
+.right .english ul .one1{
+	margin-left:-14px;
+	
+}
+.right .english ul .two1{
+	margin-left:16px;
+}
+.right .english ul .three1{
+	margin-left:24px;
+}
+.right .english ul .four1{
+	margin-left:10px;
+}
+.right .english ul .one1,.two1,.three1,.four1,.five1{
+	border-radius: 20px;
+	background:rgba(132,129,129,0.2);
+	box-shadow: 1px 1px 2px; 
+}
+/*其他效果*/
+.right .english ul li a:hover{
+	background:rgba(94,86,86,0.3);
+	border-radius: 20px;
+	
+}
+.right .chinese ul li a:hover{
+	color:black;
+	background-color:white;
+	opacity: 0.4px;
+	
+}
+.right .chinese ul li a:active{
+	color:black;
+	background-color: white;
+}
+.right .chinese ul .three:link{
+       color:black;
+}
+.right .chinese ul .three{
+	color:black;
+	background-color:white;
+}
+/*顶部导航end*/
+/*岳阳美食介绍*/
+.food{
+	width:1200px;
+    margin:0px auto;
+	margin-top:20px;
+}
+.food .one .top{
+	overflow:hidden;
+}
+.food .one .top .left1{
+	float:left;
+	width:300px;
+	font-size:35px;
+	
+}
+.food .one .top .left1 .big{
+	font-size:55px;
+	font-family: "STXingkai";
+}
+.food .one .top .right1{
+	float:left;
+	width:900px;
+	font-size:20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.food .one .top .right1 hr{
+	display:block;
+	margin-top:10px;
+}
+.food .one .top .right1 .orange{
+	color:orange;
+} 
+.food .one .bottom{
+	padding-top:20px;
+}
+.food .one .bottom .title{
+	font-weight:bold;
+	font-size:18px;
+	margin-left:40px;
+	margin-bottom:10px;
+}
+.food .one .bottom .content{
+	margin-left:80px;
+	font-size:16px;
+	color:#A5845D;
+	margin-right:80px;
+}
+/*岳阳美食介绍end*/
+/*兰花萝卜简介*/
+.food .two{
+	width:100%;
+	overflow: hidden;
+	margin-top:20px;
+}
+.food .two .top1{
+	width:800px;
+	height:210px;
+	float:left;
+}
+.food .title{
+	font-size:24px;
+	color:black;
+	font-weight:bold;
+	
+}
+.food .two .top1 .content{
+	font-size:16px;
+	line-height:30px;
+	margin-top:20px;
+}
+.food .two .top2{
+	width:400px;
+	height:220px;
+	float:left;
+}
+.food .two .top2 img{
+	width:200px;
+	height:200px;
+	margin-left:100px;
+}
+.food .two .middle1{
+	float:right;
+	width:650px;
+border-top:2px solid black;
+	border-bottom:2px solid black;
+	padding-bottom:40px;
+	font-size:16px;
+	margin-top:20px;
+}
+.food .two .middle2{
+	float:left;
+	width:450px;
+	overflow: hidden;
+	border-top:2px solid black;
+	border-bottom:2px solid black;
+	padding-top:40px;
+	padding-bottom:44px;
+	margin-top:20px;
+}
+.food .two .middle2 img{
+	width:200px;
+	height:200px;
+	
+}
+.food .two .middle2 ul{
+	width:450px;
+	margin-top:20px;
+	overflow:hidden;
+}
+.food .two .middle2 ul li{
+	float:left;
+	margin-left:20px;
+	margin-top:0px;
+	list-style: none;
+}
+.food .two .middle1 .main{
+	margin-top:30px;
+	line-height:23px;
+}
+.food .two .middle1 .main .bold{
+	font-weight: bold;
+	color:#DDAC1B;
+}
+.food .bottom{
+	margin-top:20px;
+	margin-bottom:20px;
+}	
+.food .bottom .content{
+	margin-top:18px;
+	margin-bottom:18px;
+	display: block;
+}
+/*兰花萝卜简介end*/

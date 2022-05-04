@@ -1,0 +1,335 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0px;
+	margin:0px;
+	font-family: "微软雅黑";
+}
+.nav{
+	overflow:hidden;
+	background:rgba(33,32,32,0.9);
+	height:75px;
+	width:100%;
+	margin-top:10px;
+
+}
+.navM{
+	margin:10px auto;
+	width:1200px;
+	font-size:18px;
+	position: relative;
+}
+/*左侧导航*/
+.left{
+	margin-left:50px;
+	float:left;
+	width:400px;
+	height:100%;
+	font-size:30px;
+	height-line:60px;
+	position:absolute;
+	color:white;
+}
+.left a{
+/*	color:#1CDE54;*/
+	color:white;
+	font-weight:bolder;
+	font-size:50px;
+	letter-spacing: 10px;;
+	text-decoration:none;
+	display:block;
+	position:absolute;
+	left:210px;
+	top:-4px;
+	font-family: "YouYuan";
+}
+.left a:hover{
+	color:#57FFF8;
+}
+/*右侧导航*/
+ .navM .right{
+	float:left;
+	height:100%;
+   margin-left:450px;
+	width:700px;
+	overflow:hidden;
+	
+}
+.right .chinese ul{
+	width:700px;
+	height:30px;
+	font-size:18px;
+}
+.right .english ul{
+	width:700px;
+	height:20px;
+	font-size:18px;
+}
+.right .english ul li{
+	margin-right:70px;
+	float:left;
+	list-style: none;
+	text-align:center;
+}
+.right .chinese ul li{
+	margin-right:70px;
+	float:left;
+	list-style: none;
+	text-align:center;
+}
+.right .chinese ul li a{
+	text-decoration: none;
+	color:white;
+	list-style:none;
+	display:block;
+}
+.right .english ul li a{
+	text-decoration: none;
+	color:white;
+	list-style:none;
+	display:block;
+}
+.right .english ul .one1{
+	margin-left:-14px;
+	
+}
+.right .english ul .two1{
+	margin-left:16px;
+}
+.right .english ul .three1{
+	margin-left:24px;
+}
+.right .english ul .four1{
+	margin-left:10px;
+}
+.right .english ul .one1,.two1,.three1,.four1,.five1{
+	border-radius: 20px;
+	background:rgba(132,129,129,0.2);
+	box-shadow: 1px 1px 2px; 
+}
+/*其他效果*/
+.right .english ul li a:hover{
+	background:rgba(94,86,86,0.3);
+	border-radius: 20px;
+	
+}
+.right .chinese ul li a:hover{
+	color:black;
+	background-color:white;
+	opacity: 0.4px;
+	
+}
+.right .chinese ul li a:active{
+	color:black;
+	background-color: white;
+}
+.right .chinese ul .three:link{
+       color:black;
+}
+.right .chinese ul .three{
+	color:black;
+	background-color:white;
+}
+/*岳阳美食介绍*/
+.food{
+	width:1200px;
+    margin:0px auto;
+	margin-top:20px;
+}
+.food .one .top{
+	overflow:hidden;
+}
+.food .one .top .left1{
+	float:left;
+	width:300px;
+	font-size:35px;
+	
+}
+.food .one .top .left1 .big{
+	font-size:55px;
+	font-family: "STXingkai";
+}
+.food .one .top .right1{
+	float:left;
+	width:900px;
+	font-size:20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.food .one .top .right1 hr{
+	display:block;
+	margin-top:10px;
+}
+.food .one .top .right1 .orange{
+	color:orange;
+} 
+.food .one .bottom{
+	padding-top:20px;
+}
+.food .one .bottom .title{
+	font-weight:bold;
+	font-size:18px;
+	margin-left:40px;
+	margin-bottom:10px;
+}
+.food .one .bottom .content{
+	margin-left:80px;
+	font-size:16px;
+	color:#A5845D;
+	margin-right:80px;
+}
+/*岳阳美食必去之处*/
+.food .two{
+	overflow:hidden;
+	margin-top:30px;
+	width:100%;
+}
+.food .two .left2{
+	float:left;
+	width:300px;
+}
+.food .two .left2 .top2 ul li{
+	width:300px;
+	height:50px;
+	background:rgba(191,187,187,0.7);
+	margin-bottom:10px;
+}
+.food .two .left2 .top2 ul .main{
+	background:rgba(245,188,132,0.8);
+}
+.food .two .left2 .top2 ul .main:hover{
+	background:rgba(245,188,132,0.8);
+}
+.food .two .left2 .top2 ul li a{
+	list-style:none;
+	font-size:17px;
+	color:black;
+	text-decoration: none;
+	display:block;
+	line-height:50px;
+	margin-left:20px;
+}
+.food .two .left2 .top2 ul li:hover{
+	background:rgba(191,187,187,1.00);
+}
+
+/*岳阳美食必去之处end*/
+/*岳阳美食排行榜*/
+.food .two .left2 .bottom2{
+	width:280px;
+	margin:0px auto;
+	margin-top:100px;
+}
+.food .two .left2 .bottom2 .second .left3{
+	float:left;
+	position: relative;
+}
+.food .two .left2 .bottom2 .second .right3{
+	float:right;
+	margin-right:10px;
+	text-align: left;
+}
+.food .two .left2 .bottom2 .first{
+	width:100%;
+	height:50px;
+	font-siz:20px;
+	color:#FD1C20;
+	font-weight:bold;
+	line-height:50px;
+}
+.food .two .left2 .bottom2 .first img{
+	width:40px;
+	height:40px;
+}
+.food .two .left2 .bottom2 .second ul li .left3 img{
+	width:34px;
+	height:34px;
+	position: relative;
+	top:10px;
+}
+.food .two .left2 .bottom2 .second ul li .right3 img{
+	width:34px;
+	height:34px;
+	line-height:60px;
+	
+}
+.food .two .left2 .bottom2 .second ul{
+	width:100%;
+}
+.food .two .left2 .bottom2 .second ul li{
+	width:100%;
+	height:60px;
+	line-height:60px;
+	border-top:0.5px #D7D7D7;
+    border-bottom:0.5px solid #C1BFBF;
+	list-style: none;
+	overflow:hidden;
+}
+.food .two .left2 .bottom2 .second .left3 a{
+	font-size:15px;
+	color:black;
+	text-decoration: none;
+	line-height:60px;
+	position: relative;
+	left:10px;
+}
+.food .two .left2 .bottom2 .second .left3 a:hover{
+	color:darkred;
+}
+.food .two .left2 .bottom2 .second .right3 a{
+	font-size:14px;
+	line-height:60px;
+	color:#9C9C9C;
+	text-decoration: none;
+}
+
+/*岳阳美食排行榜end*/
+/*美食介绍*/
+.food .right2{
+	width:900px;
+	overflow:hidden;
+}
+.food .right2 .left4{
+	width:350px;
+	float:left;
+}
+.food .right2 .right4{
+	width:350px;
+	float:left;
+}
+.food .right2 img{
+	width:340px;
+	height:260px;
+}
+.food .right2 .righ4 .one3{
+	position: relative;
+}
+.food .right2 .left4{
+	margin-left:80px;
+}
+.food .right2 .right4{
+	margin-left:60px;
+}
+.food .right2 dl {
+	height:365px;
+	width:100%;
+}
+.food .right2 .title{
+	font-size:14px;
+	font-weight:bold;
+} 
+.food .right2 .content{
+	font-size:13px;
+}
+.food .right2 .detail a{
+	position:relative;
+	font-size:13px;
+	text-decoration: none;
+	left:310px;
+	top:-22px;
+}
+.food .right2 .detail a:hover{
+	text-decoration: underline;
+}
+/*美食介绍end*/
+/*岳阳美食介绍end*/

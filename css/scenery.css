@@ -1,0 +1,774 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0px ;
+	margin:0px;
+	font-family: "微软雅黑";
+}
+body{
+	width:100%;
+	background:white;
+	position:relative;
+	
+}
+#all{
+	position:relative;
+	width:100%;
+}
+#container{
+	
+	margin:10px auto;
+	background:rgba(253,249,249,0.5);
+	
+	width:1200px;
+    border-radius: 20px;
+}
+/*导航栏*/
+.nav{
+	overflow:hidden;
+	background:rgba(33,32,32,0.9);
+	height:75px;
+	width:100%;
+	margin-top:10px;
+
+}
+.navM{
+	margin:10px auto;
+	width:1200px;
+	font-size:18px;
+	position: relative;
+}
+/*左侧导航*/
+.left{
+	margin-left:50px;
+	float:left;
+	width:400px;
+	height:100%;
+	font-size:30px;
+	height-line:60px;
+	position:absolute;
+	color:white;
+}
+.left a{
+/*	color:#1CDE54;*/
+	color:white;
+	font-weight:bolder;
+	font-size:50px;
+	letter-spacing: 10px;;
+	text-decoration:none;
+	display:block;
+	position:absolute;
+	left:210px;
+	top:-4px;
+	font-family: "YouYuan";
+}
+.left a:hover{
+	color:#57FFF8;
+}
+/*右侧导航*/
+ .navM .right{
+	float:left;
+	height:100%;
+   margin-left:450px;
+	width:700px;
+	overflow:hidden;
+	
+}
+.right .chinese ul{
+	width:700px;
+	height:30px;
+	font-size:18px;
+}
+.right .english ul{
+	width:700px;
+	height:20px;
+	font-size:18px;
+}
+.right .english ul li{
+	margin-right:70px;
+	float:left;
+	list-style: none;
+	text-align:center;
+}
+.right .chinese ul li{
+	margin-right:70px;
+	float:left;
+	list-style: none;
+	text-align:center;
+}
+.right .chinese ul li a{
+	text-decoration: none;
+	color:white;
+	list-style:none;
+	display:block;
+}
+.right .english ul li a{
+	text-decoration: none;
+	color:white;
+	list-style:none;
+	display:block;
+}
+.right .english ul .one1{
+	margin-left:-14px;
+	
+}
+.right .english ul .two1{
+	margin-left:16px;
+}
+.right .english ul .three1{
+	margin-left:24px;
+}
+.right .english ul .four1{
+	margin-left:10px;
+}
+.right .english ul .one1,.two1,.three1,.four1,.five1{
+	border-radius: 20px;
+	background:rgba(132,129,129,0.2);
+	box-shadow: 1px 1px 2px; 
+}
+/*其他效果*/
+.right .english ul li a:hover{
+	background:rgba(94,86,86,0.3);
+	border-radius: 20px;
+	
+}
+.right .chinese ul li a:hover{
+	color:black;
+	background-color:white;
+	opacity: 0.4px;
+	
+}
+.right .chinese ul li a:active{
+	color:black;
+	background-color: white;
+}
+.right .chinese ul .two:link{
+       color:black;
+}
+.right .chinese ul .two{
+	color:black;
+	background-color:white;
+}
+/*岳阳美景介绍*/
+.food{
+	width:1200px;
+    margin:0px auto;
+	margin-top:20px;
+}
+.food .one .top{
+	overflow:hidden;
+}
+.food .one .top .left1{
+	float:left;
+	width:300px;
+	font-size:35px;
+	
+}
+.food .one .top .left1 .big{
+	font-size:55px;
+	font-family: "STXingkai";
+}
+.food .one .top .right1{
+	float:left;
+	width:900px;
+	font-size:20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.food .one .top .right1 hr{
+	display:block;
+	margin-top:10px;
+}
+.food .one .top .right1 .orange{
+	color:orange;
+} 
+.scenery{
+	padding-top:20px;
+}
+.scenery .title{
+	font-weight:bold;
+	font-size:18px;
+	margin-left:40px;
+	margin-bottom:10px;
+}
+.scenery .content{
+	margin-left:80px;
+	font-size:16px;
+	color:#A5845D;
+	margin-right:80px;
+	line-height:30px; 
+}
+.first{
+	width:100%;
+}
+/*图片加悬浮效果，用定位和滤镜实现：”洞庭天下水，岳阳天下楼*/
+.one{
+	position: relative;
+}
+.one img{
+	width:100%; 
+	height:460px; 
+	border-radius: 5px;
+	z-index:0;
+	position:relative;
+}
+/*美景列表*/
+.one .two{
+	position:absolute;
+	top:20px;
+}
+.all{
+	
+	width:340px;
+	height:360px;
+	margin-left:0px;
+	margin-top:30px;
+	background:rgba(0,0,0,0.6);
+}
+.all li{
+	list-style: none;
+}
+ .all .no{
+	background:rgba(220,214,214,0.5);
+	width:100%;
+	height:50px;
+	font-size:25px;
+	position: relative;
+}
+.all .no .circle{
+	width:13px;
+	height:13px;
+	border-radius:9px;
+	background-color:white;
+	position:absolute;
+	top:10px;
+	left:16px;
+	opacity:0.6;
+}
+ .all .no span{
+	margin-left:50px;
+	display:block;
+	margin-top:30px;
+}
+.all .no1{
+	text-decoration: none;
+	color:#8312BF;
+	font-size:16px;
+}
+.all .no1 ul{
+	margin-left:20px;
+	margin-right:20px;
+}
+.all .no1 ul li a{
+	color:white;
+	text-decoration: none;
+	font-size:17px;
+	display:block;
+	margin-left:30px;
+	line-height:25px;
+	font-family:"STCaiyun";
+}
+.all .no1 li a:hover{
+	text-decoration: underline;
+	color:aqua;
+}
+.all .two{
+	width:450px;
+}
+/*美景列表*end/
+/*中间部分*/
+#container{
+	
+	margin:10px auto;
+	background:rgba(253,249,249,0.5);
+	width:1200px;
+    border-radius: 20px;
+}
+/*中间部分顶图案*/
+.middle{
+	margin-top:50px;
+	position: relative;
+	overflow:hidden;
+}
+.middle .one{
+	width:100%;
+}
+.middle .one img{
+	margin-left:30px;
+	margin-top:20px;
+}
+.middle .font{
+	position:absolute;
+	top:320px;
+	margin-left:30px;
+}
+.middle .font img:hover{
+	opacity:0.8px;
+}
+/*小标题*/
+.banner{
+	width:1200px;
+	height:40px;
+	text-align:left;
+	font-size:25px;
+	color:black;
+	font-weight: bold;
+}
+/*小标题end*
+/*美景列表*/
+.middle .meijing{
+	width:800px;
+	margin-left:30px;
+	margin-right:20px;
+	overflow:hidden;
+	height:480px;
+   float:left;
+	margin-top:30px;
+}
+.middle .meijing .search{
+	font-size:54px;
+	color:#920709;
+	font-family: "STXingkai";
+	margin-top:10px;
+} 
+.middle .meijingA{
+	width:300px;
+	float:left;
+	height:400px;
+	font-size:20px;
+	line-height:30px;
+	padding-top:50px;
+}
+.middle .meijing .three{
+	margin-top:20px;
+	
+}
+
+.middle .three{
+	width:650px;
+	height:100%;
+	margin-left:10px;
+}
+.middle .three .yes{
+	position:relative;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+/*岳阳楼*/
+.middle .three .yes1{
+	width:85px;
+	height:80px;
+	position:absolute;
+	top:60px;
+	left:520px;
+	box-shadow: 1px 1px 2px ;
+	cursor:pointer;
+	transition: all 0.6s;
+	overeflow:hidden;
+}
+.middle .three .yes1:hover{
+		transform: scale(1.3);
+}
+.middle .three .yes1 .ok1 .circle{
+	display: block;
+	width:10px;
+	height:10px;
+	border-radius:5px;
+	background-color:#313192;
+	float:left;
+	margin-left:3px;
+	margin-top:4px;
+}
+.middle .three .yes1 .ok1 .spot{
+	font-size:14px;
+	float:left;
+	margin-left:5px;
+	font-weight:bold;
+}
+/*岳阳楼end*/
+/*洞庭湖*/
+.middle .three .yes2{
+	position:absolute;
+	top:140px;;
+	left:480px;
+	box-shadow: 1px 1px 2px ;cursor:pointer;
+	transition: all 0.6s;
+	overeflow:hidden;
+}
+.middle .three .yes2:hover{
+		transform: scale(1.3);
+}
+.middle .three .yes2 .ok2 .circle{
+	display: block;
+	width:10px;
+	height:10px;
+	border-radius:5px;
+	background-color:antiquewhite;
+	float:left;
+	margin-left:3px;
+	margin-top:4px;
+}
+.middle .three .yes2 .ok2 .spot{
+	font-size:14px;
+	float:left;
+	margin-left:5px;
+	font-weight:bold;
+}
+/*洞庭湖end*/
+/*圣安寺*/
+.middle .three .yes3{
+	position:absolute;
+	top:30px;;
+	left:180px;
+	box-shadow: 1px 1px 2px ;cursor:pointer;
+	transition: all 0.6s;
+	overeflow:hidden;
+	
+}
+.middle .three .yes3:hover{
+		transform: scale(1.3);
+}
+.middle .three .yes3 .ok3 .circle{
+	display: block;
+	width:10px;
+	height:10px;
+	border-radius:5px;
+	background-color:#C123E9;
+	float:left;
+	margin-left:3px;
+	margin-top:4px;
+}
+.middle .three .yes3 .ok3 .spot{
+	font-size:14px;
+	float:left;
+	margin-left:5px;
+	font-weight:bold;
+	color:#493333;
+}
+/*圣安寺end*/
+/*任弼时同志故居*/
+.middle .three .yes4{
+	position:absolute;
+	top:140px;;
+	left:50px;
+	box-shadow: 1px 1px 2px ;cursor:pointer;
+	transition: all 0.6s;
+	overeflow:hidden;
+}
+.middle .three .yes4:hover{
+		transform: scale(1.3);
+}
+.middle .three .yes4 .ok4 .circle{
+	display: block;
+	width:10px;
+	height:10px;
+	border-radius:5px;
+	background-color:#E1AA19;
+	float:left;
+	margin-left:3px;
+	margin-top:4px;
+}
+.middle .three .yes4 .ok4 .spot{
+	font-size:14px;
+	float:left;
+	margin-left:5px;
+	font-weight:bold;
+	color:#493333;
+}
+/*任弼时同志故居end*/
+/*君山岛*/
+.middle .three .yes5{
+	position:absolute;
+	top:10px;;
+	left:460px;
+	box-shadow: 1px 1px 2px ;cursor:pointer;
+	transition: all 0.6s;
+	overeflow:hidden;
+}
+.middle .three .yes5:hover{
+		transform: scale(1.3);
+}
+.middle .three .yes5 .ok5 .circle{
+	display: block;
+	width:10px;
+	height:10px;
+	border-radius:5px;
+	background-color:#BC0F12;
+	float:left;
+	margin-left:3px;
+	margin-top:4px;
+}
+.middle .three .yes5 .ok5 .spot{
+	font-size:14px;
+	float:left;
+	margin-left:5px;
+	font-weight:bold;
+}
+/*君山岛end*/
+/*南湖*/
+.middle .three .yes6{
+	position:absolute;
+	top:100px;;
+	left:300px;
+	box-shadow: 1px 1px 2px ;cursor:pointer;
+	transition: all 0.6s;
+	overeflow:hidden;
+}
+.middle .three .yes6:hover{
+		transform: scale(1.3);
+}
+.middle .three .yes6 .ok6 .circle{
+	display: block;
+	width:10px;
+	height:10px;
+	border-radius:5px;
+	background-color:#23AFCA;
+	float:left;
+	margin-left:3px;
+	margin-top:4px;
+}
+.middle .three .yes6 .ok6 .spot{
+	font-size:14px;
+	float:left;
+	margin-left:5px;
+	font-weight:bold;
+	color:#493333;
+}
+/*南湖end*/
+/*金鹗山*/
+.middle .three .yes7{
+	position:absolute;
+	top:200px;;
+	left:0px;
+	box-shadow: 1px 1px 2px ;cursor:pointer;
+	transition: all 0.6s;
+	overeflow:hidden;
+}
+.middle .three .yes7:hover{
+		transform: scale(1.3);
+}
+.middle .three .yes7 .ok7 .circle{
+	display: block;
+	width:10px;
+	height:10px;
+	border-radius:5px;
+	background-color:#F38EF5;
+	float:left;
+	margin-left:3px;
+	margin-top:4px;
+}
+.middle .three .yes7 .ok7 .spot{
+	font-size:14px;
+	float:left;
+	margin-left:5px;
+	font-weight:bold;
+	color:#493333;
+}
+/*金鹗山end*/
+/*张谷英村*/
+.middle .three .yes8{
+	position:absolute;
+	top:320px;;
+	left:370px;
+	box-shadow: 1px 1px 2px ;
+	cursor:pointer;
+	transition: all 0.6s;
+	overeflow:hidden;
+}
+.middle .three .yes8:hover{
+		transform: scale(1.3);
+}
+.middle .three .yes8 .ok8 .circle{
+	display: block;
+	width:10px;
+	height:10px;
+	border-radius:5px;
+	background-color:#1B085C;
+	float:left;
+	margin-left:3px;
+	margin-top:4px;
+}
+.middle .three .yes8 .ok8 .spot{
+	font-size:14px;
+	float:left;
+	margin-left:5px;
+	font-weight:bold;
+}
+/*张谷英村end*/
+/*巴陵广场*/
+.middle .three .yes9{
+	position:absolute;
+	top:210px;;
+	left:430px;
+	box-shadow: 1px 1px 2px ;
+	cursor:pointer;
+	transition: all 0.6s;
+	overeflow:hidden;
+}
+.middle .three .yes9:hover{
+		transform: scale(1.3);
+}
+.middle .three .yes9 .ok9 .circle{
+	display: block;
+	width:10px;
+	height:10px;
+	border-radius:5px;
+	background-color:#137419;
+	float:left;
+	margin-left:3px;
+	margin-top:4px;
+}
+.middle .three .yes9 .ok9 .spot{
+	font-size:14px;
+	float:left;
+	margin-left:5px;
+	font-weight:bold;
+}
+/*巴陵广场end*/
+/*屈子祠*/
+.middle .three .yes10{
+	position:absolute;
+	top:270px;;
+	left:560px;
+	box-shadow: 1px 1px 2px ;
+	cursor:pointer;
+	transition: all 0.6s;
+	overflow:hidden;
+}
+.middle .three .yes10:hover{
+		transform: scale(1.3);
+}
+.middle .three .yes10 .ok10 .circle{
+	display: block;
+	width:10px;
+	height:10px;
+	border-radius:5px;
+	background-color:#313192;
+	float:left;
+	margin-left:3px;
+	margin-top:4px;
+}
+.middle .three .yes10 .ok10 .spot{
+	font-size:14px;
+	float:left;
+	margin-left:5px;
+	font-weight:bold;
+}
+/*屈子祠end*/
+/*大云山*/
+.middle .three .yes11{
+	position:absolute;
+	top:230px;
+	left:300px;
+	box-shadow: 1px 1px 2px ;
+	cursor:pointer;
+	transition: all 0.6s;
+	overflow:hidden;
+}
+.middle .three .yes11:hover{
+		transform: scale(1.3);
+}
+.middle .three .yes11 .ok11 .circle{
+	display: block;
+	width:10px;
+	height:10px;
+	border-radius:5px;
+	background-color:#313192;
+	float:left;
+	margin-left:3px;
+	margin-top:4px;
+}
+.middle .three .yes11 .ok11 .spot{
+	font-size:14px;
+	float:left;
+	margin-left:5px;
+	font-weight:bold;
+}
+/*大云山end*/
+/*美景图片列表*/
+.middle .list{
+	width:100%;
+	overflow:hidden;
+	list-style: none;
+}
+.middle .list .one2,.two2,.three2{
+	margin-left:28px;
+	overflow:hidden;
+	margin-top:20px;
+}
+.middle .list .one2 ul li{
+	float:left;
+	margin-left:20px;
+	list-style:none;
+}
+.middle .list .one2 ul li a img{
+	width:260px;
+	height:200px;
+	cursor:pointer;
+}
+.middle .list .one2 ul li dl{
+	width:264px;
+	
+}
+.middle .list .one2 ul li dl dt{
+	background:rgba(214,215,199,0.5);
+	width:260px;
+	height:80px;
+	color:#523536;
+}
+.middle .list .two2 ul li{
+	float:left;
+	margin-left:20px;
+	list-style:none;
+}
+.middle .list .two2 ul li a img{
+	width:260px;
+	height:200px;
+}
+.middle .list .two2 ul li dl{
+	width:264px;
+	
+}
+.middle .list .two2 ul li dl dt{
+	background:rgba(214,215,199,0.5);
+	width:260px;
+	height:80px;
+	color:#523536;
+}
+.middle .list .three2 ul li{
+	float:left;
+	margin-left:20px;
+	list-style:none;
+}
+.middle .list .three2 ul li a img{
+	width:260px;
+	height:200px;
+}
+.middle .list .three2 ul li dl{
+	width:264px;
+	
+}
+.middle .list .three2 ul li dl dt{
+	background:rgba(214,215,199,0.5);
+	width:260px;
+	height:80px;
+	color:#523536;
+}
+/*景区名字加粗*/
+.middle .list .title{
+	font-weight:bold;
+	font-size:15px;
+}
+/*景区名字加粗end*/
+/*景区简介*/
+.middle .list ul li dl dt{
+     font-size:12px;
+}
+/*景区简介end*/
+.scenery .content a{
+	text-decoration: none;
+}
+.scenery .content a:hover{
+	text-decoration: underline;
+}

@@ -1,0 +1,381 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0px;
+	margin:0px;
+	font-family: "微软雅黑";
+}
+.nav{
+	overflow:hidden;
+	background:rgba(33,32,32,0.9);
+	height:75px;
+	width:100%;
+	margin-top:10px;
+
+}
+.navM{
+	margin:10px auto;
+	width:1200px;
+	font-size:18px;
+	position: relative;
+}
+/*左侧导航*/
+.left{
+	margin-left:50px;
+	float:left;
+	width:400px;
+	height:100%;
+	font-size:30px;
+	height-line:60px;
+	position:absolute;
+	color:white;
+}
+.left a{
+/*	color:#1CDE54;*/
+	color:white;
+	font-weight:bolder;
+	font-size:50px;
+	letter-spacing: 10px;;
+	text-decoration:none;
+	display:block;
+	position:absolute;
+	left:210px;
+	top:-4px;
+	font-family: "YouYuan";
+}
+.left a:hover{
+	color:#57FFF8;
+}
+/*右侧导航*/
+ .navM .right{
+	float:left;
+	height:100%;
+   margin-left:450px;
+	width:700px;
+	overflow:hidden;
+	
+}
+.right .chinese ul{
+	width:700px;
+	height:30px;
+	font-size:18px;
+}
+.right .english ul{
+	width:700px;
+	height:20px;
+	font-size:18px;
+}
+.right .english ul li{
+	margin-right:70px;
+	float:left;
+	list-style: none;
+	text-align:center;
+}
+.right .chinese ul li{
+	margin-right:70px;
+	float:left;
+	list-style: none;
+	text-align:center;
+}
+.right .chinese ul li a{
+	text-decoration: none;
+	color:white;
+	list-style:none;
+	display:block;
+}
+.right .english ul li a{
+	text-decoration: none;
+	color:white;
+	list-style:none;
+	display:block;
+}
+.right .english ul .one1{
+	margin-left:-14px;
+	
+}
+.right .english ul .two1{
+	margin-left:16px;
+}
+.right .english ul .three1{
+	margin-left:24px;
+}
+.right .english ul .four1{
+	margin-left:10px;
+}
+.right .english ul .one1,.two1,.three1,.four1,.five1{
+	border-radius: 20px;
+	background:rgba(132,129,129,0.2);
+	box-shadow: 1px 1px 2px; 
+}
+/*其他效果*/
+.right .english ul li a:hover{
+	background:rgba(94,86,86,0.3);
+	border-radius: 20px;
+	
+}
+.right .chinese ul li a:hover{
+	color:black;
+	background-color:white;
+	opacity: 0.4px;
+	
+}
+.right .chinese ul li a:active{
+	color:black;
+	background-color: white;
+}
+.right .chinese ul .four:link{
+       color:black;
+}
+.right .chinese ul .four{
+	color:black;
+	background-color:white;
+}
+/*你所在的位置*/
+.food{
+	width:1200px;
+    margin:0px auto;
+	margin-top:20px;
+}
+.food .one .top{
+	overflow:hidden;
+}
+.food .one .top .left1{
+	float:left;
+	width:340px;
+	font-size:35px;
+	
+}
+.food .one .top .left1 .big{
+	font-size:55px;
+	font-family: "STXingkai";
+}
+.food .one .top .right1{
+	float:left;
+	width:860px;
+	font-size:20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.food .one .top .right1 hr{
+	display:block;
+	margin-top:10px;
+}
+.food .one .top .right1 .orange{
+	color:orange;
+}
+.food .one .bottom{
+	padding-top:20px;
+}
+.food .one .bottom .title{
+	font-weight:bold;
+	font-size:18px;
+	margin-left:40px;
+	margin-bottom:10px;
+}
+.food .one .bottom .content{
+	margin-left:80px;
+	font-size:16px;
+	color:#A5845D;
+	margin-right:80px;
+}
+/*你所在的位置end*/
+/*春节的由来*/
+.custom{
+	width:1200px;
+	margin:0px auto;
+}
+.custom1{
+	width:100%;
+	overflow:hidden;
+	height:540px;
+	margin:0px auto;
+	margin-top:10px;
+}
+.custom1 .left{
+	float:left;
+	width:800px;
+	color:black;
+	height:100%;
+}
+.custom1 .left .one1{
+	font-size:25px;
+	font-weight:bold;
+	color:#BE080B;
+}
+.custom1 .left .two1{
+	font-size:16px;
+}
+.custom1 .right{
+	float:right;
+	width:400px;
+	height:100%;
+	overflow:hidden;
+}
+.custom1 .right img{
+	margin-left:80px;
+	margin-top:100px;
+}
+.custom1 .right form{
+	margin-left:80px;
+	margin-top:20px;
+}
+.custom1 .right .input1{
+	float:left;
+	width:230px;
+	height:30px;
+	background: red;
+	
+}
+.custom1 .right .input1 input{
+	width:200px;
+	height:20px;
+	margin-left:15px;
+	margin-top:5px;
+	border:none;
+}
+.custom1 .right .input2{
+	float:left;
+	
+}
+.custom1 .right .input2 input{
+	width:50px;
+	height:30px;
+}
+/*春节的由来end*/
+/*春节习俗*/
+.custom2{
+	width:100%;
+
+}
+.custom2 .one3{
+	overflow:hidden;
+	width:100%;
+	height:370px;
+}
+
+.custom2 .left3{
+	float:left;
+    background:white;
+	margin-left:5px;
+}
+
+.custom2  .content{
+	width:590px;
+	height:300px;
+	margin-top:0px;
+	margin-bottom: 0px;
+	background:#D2D6BB;
+	
+}
+.custom2  .right3:hover{
+	box-shadow: 2px 3px 3px 2px #922325;
+}
+.custom2  .left3:hover{
+	box-shadow: 2px 3px 3px 2px #922325;
+}
+.custom2 .right3{
+	margin-left:10px;
+	float:left;
+	 background:white;
+}
+.custom2 .content .first{
+	width:100%;
+	height:80px;
+	position:relative;
+}
+.custom2 .content .first img{
+	width:200px;
+	height:50px;
+	margin-left:180px;
+	margin-top:10px;
+}
+.custom2 .content .first span{
+	position:absolute;
+	color:black;
+	font-weight:bold;
+	top:20px;
+	left:260px;
+	font-size:22px;
+	
+}
+.custom2 .content .second{
+	width:100%;
+	height:200px;
+	overflow:hidden;
+}
+.custom2 .content .second1{
+	height:100%;
+	width:270px;
+	float:left;
+}
+.custom2 .content .second1 img{
+    width:230px;
+	height:200px;
+	margin-left:28px;
+}
+.custom2 .content .second2{
+	height:100%;
+	width:290px;
+	float:left;
+}
+.custom2 .content .second2 .same1{
+	width:100%;
+	height:25px;
+	background: #DF080C;
+	color:white;
+	font-size:17px;
+	font-weight:bold;
+	text-align: center;
+}
+.custom2 .content .second2 .same2{
+	width:100%;
+	height:160px;
+	font-size:12px;
+	color:black;
+	background-color:#DADADA;
+	margin-top:10px;
+	line-height:20px;
+}
+.custom2 .content .second2 .same2 a{
+	text-align: right;
+	text-decoration: none;
+	display:block;
+	width:100%;
+	font-size:10px;
+}
+.custom2 .content .second2 .same2  a:hover{
+	color:red;
+	text-decoration: underline;
+}
+.custom2 .one4 .left3 .first span{
+	top:20px;
+	left:240px;
+	position: absolute;
+}
+.custom2 .one5 .left3 .first span{
+	top:20px;
+	left:260px;
+	position: absolute;
+}
+.custom2 .one6 .left3 .first span{
+	top:20px;
+	left:260px;
+	position: absolute;
+}
+.custom2 .one6 .right3 .first span{
+	top:20px;
+	left:250px;
+	position: absolute;
+}
+.custom2 .one7 .left3 .first span{
+	top:20px;
+	left:260px;
+	position: absolute;
+}
+.custom2 .one7 .right3 .first span{
+	top:20px;
+	left:246px;
+	position: absolute;
+}
+
+/*春节习俗end*/

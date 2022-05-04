@@ -1,0 +1,478 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0px;
+	margin:0px;
+	font-family:"微软雅黑";
+}
+body{
+	width:100%;
+    background:white;
+	position:relative;
+}
+#all{
+	position:relative;
+	width:100%;
+}
+#container{	
+	margin:10px auto;
+	background:rgba(253,249,249,0.5);
+	
+	width:1200px;
+    border-radius: 20px;
+}
+/*导航栏*/
+.nav{
+	overflow:hidden;
+	background:rgba(33,32,32,0.9);
+	height:75px;
+	width:100%;
+	margin-top:10px;
+
+}
+.navM{
+	margin:10px auto;
+	width:1200px;
+	font-size:18px;
+	position: relative;
+}
+/*左侧导航*/
+.left{
+	margin-left:50px;
+	float:left;
+	width:400px;
+	height:100%;
+	font-size:30px;
+	height-line:60px;
+	position:absolute;
+	color:white;
+}
+.left a{
+/*	color:#1CDE54;*/
+	color:white;
+	font-weight:bolder;
+	font-size:50px;
+	letter-spacing: 10px;;
+	text-decoration:none;
+	display:block;
+	position:absolute;
+	left:210px;
+	top:-4px;
+	font-family: "YouYuan";
+}
+.left a:hover{
+	color:#57FFF8;
+}
+/*右侧导航*/
+ .navM .right{
+	float:left;
+	height:100%;
+   margin-left:450px;
+	width:700px;
+	overflow:hidden;
+	
+}
+.right .chinese ul{
+	width:700px;
+	height:30px;
+	font-size:18px;
+}
+.right .english ul{
+	width:700px;
+	height:20px;
+	font-size:18px;
+}
+.right .english ul li{
+	margin-right:70px;
+	float:left;
+	list-style: none;
+	text-align:center;
+}
+.right .chinese ul li{
+	margin-right:70px;
+	float:left;
+	list-style: none;
+	text-align:center;
+}
+.right .chinese ul li a{
+	text-decoration: none;
+	color:white;
+	list-style:none;
+	display:block;
+}
+.right .english ul li a{
+	text-decoration: none;
+	color:white;
+	list-style:none;
+	display:block;
+}
+.right .english ul .one1{
+	margin-left:-14px;
+	
+}
+.right .english ul .two1{
+	margin-left:16px;
+}
+.right .english ul .three1{
+	margin-left:24px;
+}
+.right .english ul .four1{
+	margin-left:10px;
+}
+.right .english ul .one1,.two1,.three1,.four1,.five1{
+	border-radius: 20px;
+	background:rgba(132,129,129,0.2);
+	box-shadow: 1px 1px 2px; 
+}
+/*其他效果*/
+.right .english ul li a:hover{
+	background:rgba(94,86,86,0.3);
+	border-radius: 20px;
+	
+}
+.right .chinese ul li a:hover{
+	color:black;
+	background-color:white;
+	opacity: 0.4px;
+	
+}
+.right .chinese ul li a:active{
+	color:black;
+	background-color: white;
+}
+.right .chinese ul .one:link{
+       color:black;
+}
+.right .chinese ul .one{
+	color:black;
+	background-color:white;
+}
+/*中间主体部分*/
+.middle{
+	width:100%;
+	position: relative;
+}
+.first{
+	width:100%;
+}
+/*图片加悬浮效果，用定位和滤镜实现：”洞庭天下水，岳阳天下楼*/
+.first img{
+	width:100%; 
+	height:460px; 
+	border-radius: 5px;
+	z-index:0;
+	position:relative;
+}
+ .second{
+	position:absolute;
+	width:100%;
+	height:140px;
+	background:rgba(0,0,0,0.5);
+	margin-left:0px;
+	top:394px;
+	display:none;
+}
+/*文字放大效果实验*/
+ .first .second .yueyang{
+	cursor:pointer;
+	transition: all 0.4s;
+	display:block;
+	color:wheat;
+	font-size:42px;
+	margin-top:40px;
+	color:white;
+	 text-align: center;
+	 font-family: "FZShuTi";
+	 text-decoration: none;
+}
+.first .second a{
+	text-decoration: none;
+}
+.first .second .yueyang:hover {
+	transform: scale(1.4);
+	z-index:3;
+	
+}
+/*文字效果end*/
+.first:hover .second{
+	z-index:3;
+	display:block;
+}
+/*重新设计的页面的css*/
+.center{
+	width:1200px;
+	overflow:hidden;
+	margin:0px auto;
+	
+}
+.center a{
+	text-decoration: none;
+	font-family:"STXingkai";
+}
+.center a:hover{
+	text-decoration: underline;
+}
+.center1{
+	width:100%;
+	height:17px;
+	background-color:#F4ACDF;
+}
+.center2{
+	margin-top:20px;
+	overflow:hidden;
+	margin-bottom:40px;
+}
+.center2 .jianjie1{
+	float:left;
+	height:100%;
+	width:800px;
+	overflow:hidden;
+}
+.center2 .jianjie1 .main{
+	font-size:26px;
+	color:#6F2224;
+	line-height:30px;
+	font-family:"STHupo";
+	padding-top:10px;
+	paddint-bottom:22px;
+}
+.center2 .jianjie1 .left{
+	float:left;
+	width:200px;
+	height:100%;
+	position:relative;
+}
+.center2 .jianjie1 .left .one{
+	position: relative;
+	top:70px;
+	cursor:pointer;
+	transition: all 0.4s;
+	border:3px solid #59ADF4;
+}
+.center2 .jianjie1 .left .one:hover{
+	transform: scale(1.3);
+}
+.center2 .jianjie1 .left .two{
+	position:relative;
+	top:110px;
+	cursor:pointer;
+	transition: all 0.4s;
+	border:3px solid #B742F5;
+}
+.center2 .jianjie1 .left .two:hover{
+	transform: scale(1.3);
+}
+.center2 .jianjie1 .right{
+	float:right;
+	width:500px;
+	height:100%;
+	margin-right:50px;
+	font-family: "微软雅黑";
+	
+}
+/*简介2*/
+.center2 .jianjie2{
+	float:left;
+	height:100%;
+	width:400px;
+}
+.center2 .jianjie2 .top,.bottom{
+	background:linear-gradient(to bottom,#CFCFCF,white);
+    height:250px;
+	width:340px;
+	margin-left:30px;
+	
+}
+.center2 .jianjie2 .top{
+	margin-top:60px;
+	margin-bottom:30px;
+	
+}
+.center2 .jianjie2 .title2{
+	font-size:18px;
+	font-weight: bold;
+	margin-left:30px;
+	padding-top: 16px;
+	padding-bottom: 3px;
+}
+.center2 .jianjie2 .line{
+	background:#D170E2;
+	width:200px;
+	height:2px;
+	margin-left:30px;
+}
+.center2 .jianjie2 .content1{
+	font-family: "YouYuan";
+	margin:12px;
+	font-size:14px;
+}
+.center4 .title2{
+	font-size:24px;
+	font-weight: bold;
+	margin-left:30px;
+	color:#6F2224;
+	overflow:hidden;
+	margin-bottom:10px;
+}
+.center4{
+	width:100%;
+	height:500px;
+	padding-top:40px;
+}
+.center4 .content1{
+	font-family: "微软雅黑";
+}
+.center4 .center4-1{
+	width:900px;
+	heigt:100%;
+}
+.center4 .center4-2{
+	width:300px;
+	
+}
+.center4 .center4-1,.center4-2{
+	float:left;
+}
+.center6{
+	margin-top:10px;
+}
+.center6  .one{
+	font-size:20px;
+	font-weight: bold;
+	color:#862628;
+}
+.center6  .one .yueyang{
+	font-size:24px;
+}
+.center6 .two{
+	font-size:18px;
+	margin-left:80px;
+	margin-top:10px;
+}
+.center .last dl img{
+	width:80px;
+	height:80px;
+}
+.center6 .last ul li .tupian{
+	width:300px;
+	height:300px;
+}
+.center6 .last{
+	width:100%;
+	height:100%;
+}
+.center6 .last ul{
+	width:100%;
+	overflow:hidden;
+	margin-left:60px;
+	margin-bottom:20px;
+}
+.center .last dl{
+	box-shadow:1px 1px 1px #362828;
+	width:500px;
+	height:400px;
+	margin-left:20px;
+	margin-top:12px;
+}
+.center6 .last ul li{
+	float:left;
+	list-style:none;
+}
+.center .title{
+	font-size:16px;
+	color:#B04547;
+	font-weight: bold;
+}
+.center .poet{
+	font-weight:bold;
+	font-size:14px;
+}
+.center6 .poetry{
+	font-size:14px;
+}
+/*岳阳简介*/
+.middle .three{
+	width:100%;
+	margin-top:10px;
+} 
+.middle .three .title1{
+	font-size:24px;
+	color:#AB1116;
+	font-weight:bolder;
+	margin-left:40px;
+	
+}
+.middle .line{
+	width:150px;
+	margin-left:25px;
+	height:2px;
+	background-color:red;
+	margin-top:10px;
+}
+.middle .content1{
+	font-size:17px;
+	line-height:34px;
+	margin:20px;
+}
+.middle .three .content1 a{
+	
+	text-decoration: none;
+}
+.middle .three .content1 a:hover{
+	text-decoration:underline;
+}
+/*岳阳简介end*/
+/*地理位置*/
+.middle .title2{
+	color:black;
+	font-size:22px;
+	margin-left:40px;
+}
+.middle .line2{
+	width:150px;
+	margin-left:25px;
+	height:2px;
+	background-color:#493E3E;
+	margin-top:10px;
+}
+.middle .four a{
+	text-decoration: none;
+	
+}
+.middle .four a:hover{
+	text-decoration: underline;
+}
+.middle .six a{
+	text-decoration: none;
+}
+.middle .six a:hover{
+	text-decoration: underline;
+}
+/*地理位置end*/
+.three,.four,.five,.six{
+	background:rgba(236,219,220,1.00);
+	border-radius:50px;
+	box-shadow:1px 1px 3px;
+}
+.four,.five,.six{
+	margin-top:30px;
+}
+.four,.six{
+	width:1000px
+}
+.four{
+	margin-left:150px;
+}
+.six{
+	margin-left:20px;
+}
+/*侧边固定栏*/
+#fixed{
+	width:50px;
+	height:100px;
+	float:left;
+	position:fixed;
+	top:80px;
+	right:10px;
+	background:rgba(56,46,233,0.7)
+}
